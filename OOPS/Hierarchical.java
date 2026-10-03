@@ -1,0 +1,30 @@
+class Animal{
+    void eat(){
+        System.out.println("Animal eats");
+    }
+}
+
+class Cat extends Animal{
+    void meow(){
+        System.out.println("Cat meows");
+    }
+}
+
+class Dog extends  Animal{
+    void bark(){
+        System.out.println("Dog Barks");
+    }
+}
+
+public class Hierarchical{
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        Cat c = new Cat();
+
+        d.eat();
+        d.bark();
+
+        c.eat();
+        c.meow();
+    }
+}
