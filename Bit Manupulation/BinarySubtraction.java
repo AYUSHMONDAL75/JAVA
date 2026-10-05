@@ -1,8 +1,3 @@
-/*
- * Subtracts one binary string from another. If the number being
- * subtracted is actually bigger, we swap them, do the subtraction,
- * and just stick a minus sign on the front of the answer.
- */
 public class BinarySubtraction {
 
     public static String subtract(String a, String b) {
