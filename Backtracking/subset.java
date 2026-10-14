@@ -1,5 +1,4 @@
 public class subset {
-
     public static void findSubset(String str, String ans, int i) {
         // base case
         if (i == str.length()) {
@@ -16,11 +15,8 @@ public class subset {
         // no choice
         findSubset(str, ans, i + 1);
     }
-
     public static void main(String[] args) {
-
         String str = "abc";
-
         findSubset(str, "", 0);
     }
 }
