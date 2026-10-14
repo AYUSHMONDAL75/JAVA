@@ -1,0 +1,20 @@
+# Backtracking Folder
+
+This folder contains Java programs implementing backtracking algorithms and problem-solving techniques.
+
+---
+
+## Programs Included
+
+### 1. Array Backtracking
+* **Description:** Implementation of backtracking concepts using arrays in Java.
+* **Main File:** `array.java`
+
+### 2. Subset Backtracking
+* **Description:** Java program to find subsets or combinations using backtracking.
+* **Main File:** `subset.java`
+
+---
+
+## Author
+* **AYUSH MONDAL** - [GitHub Profile](https://github.com/AYUSHMONDAL75)
