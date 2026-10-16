@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HasmapOperation {
+public class Hasmap_Operation {
     public static void main(String[] args) {
         HashMap<String, Integer> hm = new HashMap<>();
 
